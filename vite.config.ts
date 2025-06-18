@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-    base: "/DDoS_attacker/",
+    base: "/DDoS_attacker",
   plugins: [
     react()
   ].filter(Boolean),
